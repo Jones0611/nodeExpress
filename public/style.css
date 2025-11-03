@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #f5f6fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #1976d2;
+    color: white;
+    text-align: center;
+    padding: 2.5rem 1rem;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.2rem;
+}
+
+header p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    opacity: 0.9;
+}
+
+/* Seções */
+section {
+    max-width: 850px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+h2 {
+    color: #1976d2;
+    margin-bottom: 1rem;
+    border-left: 4px solid #1976d2;
+    padding-left: 8px;
+    font-size: 1.4rem;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin-bottom: 0.3rem;
+    color: #222;
+}
+
+.card p {
+    margin-bottom: 0.5rem;
+}
+
+/* Habilidades */
+.habilidades ul {
+    list-style-type: none;
+}
+
+.habilidades li {
+    background: white;
+    margin-bottom: 0.6rem;
+    padding: 0.8rem 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease;
+}
+
+.habilidades li:hover {
+    transform: scale(1.02);
+}
+
+/* Rodapé */
+footer {
+    background-color: #1976d2;
+    color: white;
+    text-align: center;
+    padding: 1.2rem;
+    margin-top: 3rem;
+    font-size: 0.95rem;
+}
